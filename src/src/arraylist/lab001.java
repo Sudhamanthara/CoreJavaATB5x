@@ -12,9 +12,13 @@ public class lab001 {
         mylist.add("Ithalya");
        // mylist.set(2,"SudhaMantharasalam");
        // mylist.remove("SudhaMantharasalam");
-                System.out.println(mylist);
-        System.out.println(mylist.size());
-        System.out.println(mylist.get(3));
+               //
+        //System.out.println(mylist.size());
+        //System.out.println(mylist.get(3));
+        for(Object o : mylist){
+            System.out.println(o);
+
+        }
 
     }
 }
